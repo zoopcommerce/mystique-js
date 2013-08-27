@@ -1,6 +1,6 @@
 define([
         'doh/main',
-        'dojo/text!./testdata/lessThanEqual.json',
+        'dojo/text!mystique-common/testdata/lessThanEqual.json',
         'mystique/LessThanEqual'
     ],
     function(
@@ -17,7 +17,7 @@ define([
                     index,
                     value,
                     options;
-            
+
                 for (index in testData.data){
 
                     options = testData.data[index].options;

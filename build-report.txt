@@ -1,0 +1,48 @@
+Build started: Tue Aug 27 2013 12:35:18 GMT+1000 (E. Australia Standard Time)
+Build application version: 1.7.0dev (23930)
+Messages:
+info(103) Optimizing module complete.
+	c:\xds\charting\public\dev-assets\mystique\temp\mystique\mystique.js (compile time:0.812s)
+info(107) Package Version:
+	package: mystique; version: 1.2
+	package: mystique-common; version: 1.2
+Layer Contents:
+mystique/mystique:
+	mystique/mystique
+	mystique/Alpha
+	mystique/Base
+	mystique/Result
+	mystique-common/translations/messages.json
+	mystique/Boolean
+	mystique/Chain
+	mystique/CreditCard
+	mystique/CreditCardExpiry
+	mystique/Cvv
+	mystique/Length
+	mystique/Int
+	mystique/Date
+	mystique/Email
+	mystique/Equal
+	mystique/Float
+	mystique/GreaterThan
+	mystique/GreaterThanEqual
+	mystique/HexColor
+	mystique/LessThan
+	mystique/LessThanEqual
+	mystique/NotEqual
+	mystique/NotRequired
+	mystique/Password
+	mystique/Regex
+	mystique/Required
+	mystique/Slug
+	mystique/String
+
+Optimizer Messages:
+c:\xds\charting\public\dev-assets\mystique\temp\mystique\mystique.js:
+Done (compile time:0.812s)
+
+
+Process finished normally
+	errors: 0
+	warnings: 0
+	build time: 62.284 seconds

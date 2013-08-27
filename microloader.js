@@ -14,12 +14,17 @@ if (typeof require == 'undefined'){
 
         for (i = 0; i < arg1.length; i++){
             mid = arg1[i];
-            if (!require.defs[mid]){
-                define.loadingMid = mid;
-                require.cache[mid]();
+            if (mid == 'mystique/messages!'){
+                deps.push(require.cache['url:mystique-common/translations/messages.json']);
+            } else {
+                if (!require.defs[mid]){
+                    define.loadingMid = mid;
+                    require.cache[mid]();
+                }
+                def = require.defs[mid];
+
+                deps.push(require(def.deps, def.factory));
             }
-            def = require.defs[mid];
-            deps.push(require(def.deps, def.factory));
         }
 
         return arg2.apply({}, deps);

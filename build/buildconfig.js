@@ -1,7 +1,7 @@
 // Dojo Configuration
 dojoConfig = {
     async: true,
-    baseUrl: "../",
+    baseUrl: "../../",
     packages: [
         {
             name: "dojo",
@@ -22,6 +22,10 @@ dojoConfig = {
         {
             name: "mystique",
             location: "mystique"
+        },
+        {
+            name: "mystique-common",
+            location: "mystique-common"
         }
     ]
 };

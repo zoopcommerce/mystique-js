@@ -1,6 +1,6 @@
 define([
         'doh/main',
-        'dojo/text!./testdata/regex.json',
+        'dojo/text!mystique-common/testdata/regex.json',
         'mystique/Regex'
     ],
     function(

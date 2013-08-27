@@ -1,10 +1,10 @@
 define([
-    'mystique/messages'
+    'mystique/messages!'
 ],
 function(messages){
     // module:
     //		mystique/Result
-   
+
     var Result = function(options){
             for (var i in options){
                 this[i] = options[i]

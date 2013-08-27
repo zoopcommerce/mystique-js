@@ -1,6 +1,6 @@
 define([
         'doh/main',
-        'dojo/text!./testdata/slug.json',
+        'dojo/text!mystique-common/testdata/slug.json',
         'mystique/Slug'
     ],
     function(

@@ -1,6 +1,6 @@
 define([
         'doh/main',
-        'dojo/text!./testdata/creditCardExpiry.json',
+        'dojo/text!mystique-common/testdata/creditCardExpiry.json',
         'mystique/CreditCardExpiry'
     ],
     function(

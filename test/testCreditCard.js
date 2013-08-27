@@ -1,17 +1,17 @@
 define([
         'doh/main',
-        'dojo/text!./testdata/cvv.json',
-        'mystique/Cvv'
+        'dojo/text!mystique-common/testdata/creditCard.json',
+        'mystique/CreditCard'
     ],
     function(
         doh,
         jsonData,
-        Cvv
+        CreditCard
     ){
-        doh.register("mystique/test/testCvv", [
+        doh.register("mystique/test/testCreditCard", [
 
             function ValidatorTest(doh){
-                var validator = new Cvv,
+                var validator = new CreditCard,
                     testData = JSON.parse(jsonData),
                     result,
                     index;

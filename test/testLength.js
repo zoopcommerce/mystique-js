@@ -1,6 +1,6 @@
 define([
         'doh/main',
-        'dojo/text!./testdata/length.json',
+        'dojo/text!mystique-common/testdata/length.json',
         'mystique/Length'
     ],
     function(

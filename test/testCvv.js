@@ -1,21 +1,21 @@
 define([
         'doh/main',
-        'dojo/text!./testdata/hexColor.json',
-        'mystique/HexColor'
+        'dojo/text!mystique-common/testdata/cvv.json',
+        'mystique/Cvv'
     ],
     function(
         doh,
         jsonData,
-        HexColor
+        Cvv
     ){
-        doh.register("mystique/test/testHexColor", [
+        doh.register("mystique/test/testCvv", [
 
             function ValidatorTest(doh){
-                var validator = new HexColor,
+                var validator = new Cvv,
                     testData = JSON.parse(jsonData),
                     result,
                     index;
-            
+
                 for (index in testData.data){
 
                     result = validator.isValid(testData.data[index].value);

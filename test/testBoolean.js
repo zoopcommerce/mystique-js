@@ -1,6 +1,6 @@
 define([
         'doh/main',
-        'dojo/text!./testdata/boolean.json',
+        'dojo/text!mystique-common/testdata/boolean.json',
         'mystique/Boolean'
     ],
     function(

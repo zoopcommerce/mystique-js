@@ -1,17 +1,17 @@
 define([
         'doh/main',
-        'dojo/text!./testdata/creditCard.json',
-        'mystique/CreditCard'
+        'dojo/text!mystique-common/testdata/hexColor.json',
+        'mystique/HexColor'
     ],
     function(
         doh,
         jsonData,
-        CreditCard
+        HexColor
     ){
-        doh.register("mystique/test/testCreditCard", [
+        doh.register("mystique/test/testHexColor", [
 
             function ValidatorTest(doh){
-                var validator = new CreditCard,
+                var validator = new HexColor,
                     testData = JSON.parse(jsonData),
                     result,
                     index;

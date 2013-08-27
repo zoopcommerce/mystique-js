@@ -10,7 +10,8 @@
     ],
     "homepage": "http://zoopcommerce.github.io/mystique",
     "require": {
-        "zoopcommerce/pixie": "*"
+        "zoopcommerce/pixie": "*",
+        "zoopcommerce/mystique": "~1.2"
     },
     "autoload": {
         "psr-0": {

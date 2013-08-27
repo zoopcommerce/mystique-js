@@ -2,21 +2,25 @@ var profile = {
     "basePath":"../../",
     "releaseDir":"./mystique/temp",
     "action":"release",
-    "cssOptimize":"comments",
-    "optimize":"closure",
     "layerOptimize":"closure",
-    "stripConsole":"all",
-    "selectorEngine":"acme",
     "mini":1,
-    "buildReportDir": "./mystique/temp",
+    "buildReportDir": ".",
     "buildReportFilename": "build-report.txt",
     "packages":[
         {
             "name":"mystique",
             "location":"mystique"
+        },
+        {
+            "name":"mystique-common",
+            "location":"mystique-common"
         }
     ],
+    "plugins": {
+        "mystique/messages": "mystique/build/messages"
+    },
     "layers":{
-        "mystique/mystique":{}
+        "mystique/mystique":{
+        }
     }
 }

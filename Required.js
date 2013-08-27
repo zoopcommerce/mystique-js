@@ -32,7 +32,7 @@ function(
                     result.addMessage('required');
                 }
             }
-            
+
             if (typeof value == 'array'){
                 if (value.length == 0){
                     result.set('value', false);
