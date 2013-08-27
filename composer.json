@@ -1,0 +1,20 @@
+{
+    "name": "zoopcommerce/mystique-js",
+    "type": "zoop-mystique-js",
+    "description": "shape shifting validation library from Zoop",
+    "license": "MIT",
+    "keywords": [
+        "zoop",
+        "validation",
+        "validator"
+    ],
+    "homepage": "http://zoopcommerce.github.io/mystique",
+    "require": {
+        "zoopcommerce/pixie": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Zoop\\Mystique\\": "php/lib"
+        }
+    }
+}
