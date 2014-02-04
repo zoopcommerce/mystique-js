@@ -1,9 +1,17 @@
 {
     "name": "mystique",
-    "version":"1.2",
-    "main":"mystique",
+    "version":"1.2.1",
+    "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/zoopcommerce/mystique-js"
+    },
     "description": "Validator library",
     "keywords": ["javaScript", "dojo", "validator", "zoop", "mystique"],
+    "dependencies": {
+        "mystique-common" : "http://github.com/zoopcommerce/mystique/tarball/1.2.2"
+    },
+    "devDependencies": {
+    },
     "homepage": "http://zoopcommerce.github.io/mystique",
     "dojoBuild": "mystique.profile.js"
 }
