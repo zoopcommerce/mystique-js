@@ -23,10 +23,10 @@ function(
                 result.addMessage('required');
             }
 
-            if (typeof value == 'object'){
+            if (typeof value == 'object' && !(value instanceof Date)){
                 var i,
                     count = 0;
-                for (i in value){count++};
+                for (i in value) count++
                 if (count == 0){
                     result.set('value', false);
                     result.addMessage('required');

@@ -8,14 +8,6 @@ function(
 ){
     return Base.extend({
 
-//        hasInstanceOf: function(Constructor){
-//            for (var item in this.validators){
-//                if (this.validators[item].isInstanceOf(Constructor)){
-//                    return true;
-//                }
-//            }
-//        },
-
         _isValid: function(value){
             if (!this.validators){
                 return;
